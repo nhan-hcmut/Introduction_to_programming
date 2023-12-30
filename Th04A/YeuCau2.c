@@ -12,8 +12,8 @@ void main() {
     printf("n = ");
     scanf("%d", &n);
     for (int i=2; i<n; i++) {
-        if (isPrime(n)) {
-            printf("i\n");
+        if (isPrime(i)) {
+            printf("%d\n", i);
             sum += i;
             product *= i;
         }
