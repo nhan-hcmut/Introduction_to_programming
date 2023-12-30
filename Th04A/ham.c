@@ -9,3 +9,6 @@ int UCLN(int a, int b) { // Greatest common divisor
   }
   return b;
 }
+int BCNN(int a, int b) { // Lowest common multiple
+  return (a*b) / (UCLN(a, b));
+}
