@@ -19,4 +19,12 @@ void main() {
     printf("UCLN(%d, %d) = %d\n", a, b, ucln);
     fflush(stdin);
     getchar();
+    /* Yeu cau 1*/
+    int bcnn = 0;
+    printf("a = ");
+    scanf("%d", &a);
+    printf("b = ");
+    scanf("%d", &b);
+    bcnn = BCNN(a, b);
+    printf("BCNN(%d, %d) = %d\n", a, b, bcnn);
 }
