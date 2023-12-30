@@ -1,5 +1,5 @@
 /*
-Given an array of integers. Check if the array is palindrome or not.
+Given an array of integers. Check if the array is palindrome or not by using recursive function.
 */
 #include<stdio.h>
 #include<stdbool.h>
