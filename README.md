@@ -7,7 +7,7 @@ Doing some exercises in my computer engineering class.
 ### 2/ Why is this project useful?
 This project helps me practice writing some simple C programs.
 
-### 3/ How can users get started with the project?
+### 3/ How can users get started with this project?
 + Read docx or pdf files.<br/>
 + Do all exercises.<br/>
 + Check out my codes and compare mine with yours.
