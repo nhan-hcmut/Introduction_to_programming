@@ -9,7 +9,7 @@ Example:
 #include<stdio.h>
 
 void main() {
-    FILE *in;
+    FILE* in;
     in = fopen("input.txt", "r");
     int num = 0;
 
@@ -17,11 +17,12 @@ void main() {
     else {
         FILE *out;
         out = fopen("output.txt", "w");
+        
         if (out == NULL) { printf("Cannot open output.txt\n"); }
         else {
             while (!feof(in)) { // While not reaching the end of the file "input.txt".
                 fscanf(in, "%d", &num);
-                if (num%2 == 0) { fprintf(out, "%d ", num); }
+                if (num % 2 == 0) { fprintf(out, "%d ", num); }
             }
         }
         fclose(out);
