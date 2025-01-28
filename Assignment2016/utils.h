@@ -9,9 +9,9 @@ extern float area(float edge);
 
 /* Option 2 */
 
-extern void inputMatrix(short *matrix, short m, short n);
-extern void printMatrix(short *matrix, short m, short n);
-extern bool isSymmetric(short *matrix, short m, short n);
+extern void inputMatrix(short* matrix, short m, short n);
+extern void printMatrix(short* matrix, short m, short n);
+extern bool isSymmetric(short* matrix, short m, short n);
 
 /* Option 3 */
 
