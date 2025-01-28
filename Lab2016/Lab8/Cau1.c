@@ -17,29 +17,26 @@ void main() {
         scanf("%hi", &n); // "%hi" is the format specifier of "short"
     }
     
-    for (short i=0; i<n; i++) {
-        printf("Number %hi: ", i+1);
+    for (short i = 0; i < n; i++) {
+        printf("Number %hi: ", i + 1);
         scanf("%hi", &sequence[i]);
     }
 
     bubbleSort(sequence, n);
 
-    for (short i=0; i < n; i++) {
+    for (short i = 0; i < n; i++) {
         if (i == 0) printf("[");
         
         printf("%hi", sequence[i]);
-        if (i < n-1) printf(", ");
-            
+        
+        if (i < n - 1) printf(", ");
         else printf("]\n");
     }
 }
 
 void bubbleSort(short arr[], short size) {
-    
-    for (short i=0; i<size-1; i++) {
-        
-        for (short j=0; j<size-1-i; j++) {
-            
+    for (short i = 0; i < size - 1; i++) {
+        for (short j = 0; j < size - 1 - i; j++) {
             if (arr[j] > arr[j+1]) {
                 short temp = arr[j];
                 arr[j] = arr[j+1];
