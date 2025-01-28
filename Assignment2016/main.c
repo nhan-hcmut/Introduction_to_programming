@@ -18,7 +18,7 @@ void main() {
         printf("Your choice: ");
         scanf("%hi", &selection);
     }
-    while (selection<1 || selection>5);
+    while (selection < 1 || selection > 5);
 
     switch (selection) {
         case 1: {
@@ -35,12 +35,12 @@ void main() {
         case 2: {
             short m = 0, n = 0;
             
-            while (m<1) {
+            while (m < 1) {
                 printf("How many rows?\n");
                 scanf("%hi", &m);
             }
             
-            while (n<1) {
+            while (n < 1) {
                 printf("How many columns?\n");
                 scanf("%hi", &n);
             }
@@ -48,7 +48,7 @@ void main() {
                 printf("Not a symmetric matrix.\n");
                 break;
             }
-            short *matrix = (short*)calloc(m*n, sizeof(short));
+            short* matrix = (short*)calloc(m * n, sizeof(short));
             
             inputMatrix(matrix, m, n);
             printMatrix(matrix, m, n);
