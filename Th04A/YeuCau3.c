@@ -13,14 +13,14 @@ void main() {
     int n = 0;
     printf("n = ");
     scanf("%d", &n);
-    if (n%2 != 0) { printf("%d! = %d\n", n, factorial(n)); }
-    else { printf("%d^%d = %d", n, n-1, power(n, n-1)); }
+    if (n % 2 != 0) { printf("%d! = %d\n", n, factorial(n)); }
+    else { printf("%d^%d = %d", n, n - 1, power(n, n - 1)); }
 }
 int factorial(int num) {
     if (num == 1) return 1;
-    return num * factorial(num-1);
+    return num * factorial(num - 1);
 }
 int power(int base, int pow) {
     if (pow == 1) return base;
-    return base * power(base, pow-1);
+    return base * power(base, pow - 1);
 }
