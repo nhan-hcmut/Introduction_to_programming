@@ -23,8 +23,8 @@ void main() {
   scanf("%d", &n);
 
   // A loop that checks if a number "i" is divisible by 7 and leaves remainder 3 when divided by 6
-  for (int i=1; i <= n; i++) {
-    if ( (i%7 == 0) && (i%6 == 3) ) {
+  for (int i = 1; i <= n; i++) {
+    if ( (i % 7 == 0) && (i % 6 == 3) ) {
       sum += i;
     }
   }
