@@ -16,11 +16,11 @@ void main() {
 }
 
 bool isPalindrome(int arr[], int size, int first) { // The index "first" will be initialized to 0
-    int last = size-1-first; // Calculate the index "last"
+    int last = size - 1 - first; // Calculate the index "last"
     
 	if (arr[first] != arr[last]) return false; // If the value at index "first" and "last" are not equal, the array is not palindrome.
     
 	if (first >= last) return true; // If index "first" can reach the value that is larger than or equal to "last", that means the array is palindrome.
     
-	return isPalindrome(arr, size, first+1); // Increase the index "first" by 1 => the index "last" will be decreased by 1, accordingly.
+	return isPalindrome(arr, size, first + 1); // Increase the index "first" by 1 => the index "last" will be decreased by 1, accordingly.
 }
