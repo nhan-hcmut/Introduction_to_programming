@@ -1,5 +1,5 @@
 # Introduction_to_programming
-Introduction to programming (CO1003) - HCMUT (Ho Chi Minh City University of Technology)
+Course title: Introduction to programming - Course ID: CO1003 - HCMUT (Ho Chi Minh City University of Technology)
 
 ### 1/ What does this project do?
 Doing some exercises in my computer engineering class.
