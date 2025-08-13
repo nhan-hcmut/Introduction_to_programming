@@ -11,3 +11,4 @@ This project helps me practice writing some simple C programs.
 + Read docx or pdf files.<br/>
 + Do all exercises.<br/>
 + Check out my codes and compare mine with yours.
++ <ins>***Please let me know if there are any issues with my code. Thanks!***</ins>
